@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.filter-box .card-header{
+    border-bottom: 0;
+}
+
+.menu li{
+    margin-bottom: 3px;
+}
+
+.menu li>a{
+    color: #51585e;
+}
+
+.scroll{
+    max-height: 200px;
+    overflow: auto;
+}
+
+.card-header a{
+    color: #000;
+}
+
+.fa-chevron-down{
+    float: right;
+    font-size: 14px;
+    color: #9da1a7;
+    margin-top: 5px;
+}
+
+
+.checkbox-btn{
+    position: relative;
+}
+.checkbox-btn input{
+    opacity: 0;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.checkbox-btn input:checked~.btn{
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.btn-light{
+    background-color: #fff;
+    border-color: #dee2e6;
+    color: #212529;
+}
+
+.btn-light:hover{
+    border:none;
+    background-color: #fff;
+}

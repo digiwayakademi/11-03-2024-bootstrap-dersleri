@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.card .img-wrap{
+    height: 250px;
+    padding: 8px;
+}
+
+@media(max-width:768px){
+    .card .img-wrap{
+        border-bottom: 1px solid #dee2e6;
+    }
+}
+
+
+.card img{
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.title{
+    font-weight: 400!important;
+}
+
+.checked{
+    color: orange;
+}
+
+.price{
+    color: orange;
+    font-size: 22px;
+    font-weight: 600;
+}
